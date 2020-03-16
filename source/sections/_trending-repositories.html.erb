@@ -1,9 +1,0 @@
-<div class='repositories column'>
-  <div class='card'>
-    <%= partial 'sections/header-trending-repositories', locals: { link: 'https://github.com/trending', text: 'repositories' } %>
-    <% data.trending_repositories.repositories.each do |repo| %>
-      <%= partial 'components/repository_recommendation', locals: { repo: repo } %>
-    <% end %>
-  </div>
-</div>
-

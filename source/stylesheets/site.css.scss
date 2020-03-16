@@ -1,14 +1,4 @@
-@import "config/colors";
-@import "config/padding";
-@import "config/text";
-@import "config/grid";
-@import "config/borders";
-
-@import "components/hero";
-@import "components/card";
-@import "components/repository-row";
-
+@import 'config/index';
 @import "layout/body";
-@import "sections/user-explorer";
-@import "sections/user-info";
-@import "sections/trending-repositories";
+@import 'components/index';
+@import "sections/index";
