@@ -1,0 +1,16 @@
+.starred-repositories {
+  padding-top: 2em;
+  display: flex;
+  .link {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+  }
+  .amount {
+    font-size: 1.5em;
+  }
+  .info {
+    font-size: .75em;
+  }
+
+}

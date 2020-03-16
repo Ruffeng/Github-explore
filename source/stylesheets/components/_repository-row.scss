@@ -1,0 +1,31 @@
+.repository-row {
+  width: 100%;
+  margin-bottom: 1em;
+
+  .repo-info {
+    align-self: flex-start;
+    padding-top: .5em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .repo-title, .repo-stars-link {
+    display: flex;
+    align-items: center;
+  }
+  .repo-title {
+    flex: 3;
+  }
+  .repo-stars-link {
+    flex: 1;
+    color: $gray-600;
+  }
+  .repo-description {
+    display: flex;
+  }
+  .octicon-repo {
+    margin-right: .5em;
+  }
+  .octicon-star {
+    margin-right: .25em;
+  }
+}

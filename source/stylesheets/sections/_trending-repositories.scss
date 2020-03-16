@@ -1,0 +1,14 @@
+.repositories {
+  .header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  svg {
+    fill: $gray-600;
+  }
+  .link-header {
+    padding-left: .5em;
+  }
+}

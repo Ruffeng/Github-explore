@@ -1,0 +1,22 @@
+<% repos = [
+  {text: 'topics', amount: data.user.topics, extra: '?filter=topics'},
+  {text: 'repositories', amount: data.user.repositories}
+] %>
+    <div class='user column'>
+      <div class='card'>
+        <%= image_tag data.user.avatar, class: 'avatar', width: 100 %>
+        <h2><%= data.user.name %> </h2>
+        <span class='text-gray'> <%= data.user.nickname %> </span>
+        <div class='starred-repositories'>
+          <% repos.each do |repo| %>
+
+            <% link_to "https://github.com/stars#{repo[:extra]}", class: 'link' do%>
+              <span class='amount'><%= repo[:amount] %></span>
+              <span class='info'>Starred</span>
+              <span class='info'><%= repo[:text] %></span>
+            <% end %>
+
+          <% end %>
+        </div>
+      </div>
+    </div>
