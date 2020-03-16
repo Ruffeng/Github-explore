@@ -1,0 +1,21 @@
+<% elements = [
+  { text: 'Explore', active: true },
+  { text: 'Topics' },
+  { text: 'Trending' },
+  { text: 'Collections' },
+  { text: 'Events' },
+  { text: 'Github Sponsors' },
+]
+%>
+<div class='github-nav-menu-wrapper border'>
+<nav class='github-navigation'> 
+  <ul>
+    <% elements.each do |nav| %>
+      <% content_tag :li, class: "#{nav[:active] && 'active'} text-gray" do %>
+        <%=nav[:text] %>
+      <% end %>
+    <% end %>
+  </ul>
+  <button class='nav-button'>Get email updates</button>
+</nav>
+</div>
