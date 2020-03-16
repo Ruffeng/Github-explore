@@ -1,0 +1,25 @@
+.trending-developer, .developer-info {
+  display: flex;
+}
+
+.trending-developer {
+  width: 100%;
+  margin-bottom: 1em;
+  align-items: center;
+  img {
+    border-radius: 50%;
+  }
+}
+.developer-info {
+  flex-direction: column;
+  padding-left: 1em;
+  align-items: start;
+}
+
+.trending-dev-main-repo {
+  display: flex;
+  align-items: center;
+  .repo-name {
+    padding-left: .5em;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "payload": [
+    {
+      "name": "Eileen M. Uchitelle",
+      "nickname": "eileencodes",
+      "avatar":"https://avatars2.githubusercontent.com/u/1080678?s=460&u=2af1a848a7698831e6cc959c0738312a48b8d101&v=4",
+      "repo": "rails"
+    },
+    {
+      "name": "Aaron Patterson",
+      "nickname": "tenderlove",
+      "avatar":"https://avatars3.githubusercontent.com/u/3124?s=460&v=4",
+      "repo": "rails"
+    },
+    {
+      "name": "Alejandro Cadavid",
+      "nickname": "acadavid",
+      "avatar":"https://avatars1.githubusercontent.com/u/12845?s=460&u=de4be907d6879d1c58d150aa65fac37f6c6820eb&v=4",
+      "repo": "bidsystem"
+    }
+  ]
+}
