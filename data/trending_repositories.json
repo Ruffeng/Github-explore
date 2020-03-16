@@ -1,0 +1,23 @@
+{
+ "repositories": [
+    {
+      "team": "Foo",
+      "project": "Bar",
+      "stars": "1.2K",
+      "description": "Foo! Bar! Mix them and get a stronger team than Goku/Vegeta! "
+    },
+    {
+      "team": "Ruben",
+      "project": "Github",
+      "stars": "777",
+      "description": "Let me help you  to build the future of this amazing company"
+    },
+    {
+      "team": "Facebook",
+      "project": "React",
+      "stars": "145K",
+      "description": "React is really powerful to build flexible frontends"
+    }
+
+  ]
+}

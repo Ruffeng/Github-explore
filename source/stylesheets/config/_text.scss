@@ -1,0 +1,21 @@
+// Colors
+.text-gray {
+  color: $gray-600;
+}
+.text-dark-gray {
+  color :$gray-900;
+}
+
+// type of text
+.bold {
+  font-weight: bold;
+}
+// Size
+.text-small {
+  font-size: .75rem;
+}
+
+// Space alignment
+.justified {
+  text-align: justify; // Not IE11 support
+}

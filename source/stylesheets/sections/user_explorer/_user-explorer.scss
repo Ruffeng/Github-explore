@@ -1,0 +1,14 @@
+.user-explorer {
+  margin-top: 1.5em;
+  .avatar {
+    border-radius: 50%;
+    margin-bottom: 1em;
+  }
+}
+
+/* sections */
+.user, .repositories, .developers {
+  --width-mobile: 12;
+  --width-tablet: 6;
+  --width-desktop: 4;
+}

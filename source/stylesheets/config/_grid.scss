@@ -1,0 +1,31 @@
+/* grid styles */
+
+.container { 
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.column {
+  --columns: 12; /* number of columns in the grid system */
+  --width: var(--width-mobile, 0); /* width of the element */
+  
+  padding: 1rem;
+  flex-basis: calc(var(--width) / var(--columns) * 100%);
+}
+
+@media (min-width: 576px) {
+  .column {
+    --width-tablet: var(--width-mobile);
+    --width: var(--width-tablet);
+  }
+}
+
+@media (min-width: 1012px) {
+  .column {
+    --width-desktop: var(--width-tablet);
+    --width: var(--width-desktop);
+  }
+}

@@ -1,0 +1,6 @@
+<% partial 'views/components/card', locals: { custom_class: 'repositories' } do %>
+  <%= partial 'views/sections/user_explorer/header-card', locals: { link: 'https://github.com/trending', text: 'repositories today' } %>
+  <% data.trending_repositories.repositories.each do |repo| %>
+    <%= partial 'views/sections/user_explorer/repository_recommendation', locals: { repo: repo } %>
+  <% end %>
+<% end %>
