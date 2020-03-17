@@ -1,0 +1,15 @@
+<div class='trending-developer'>
+  <picture>
+    <%= image_tag dev.avatar, width: 50 %>
+  </picture>
+  <div class='developer-info'>
+    <%= link_to dev.name, "http://github.com/#{dev.nickname}" %>
+    <span class='text-gray text-small'><%= dev.nickname %></span>
+    <div class='pt-2 trending-dev-main-repo'>
+      <%= partial 'views/components/vector_book' %>
+      <%= link_to dev.repo, "http://github.com/#{dev.nickname}/#{dev.repo}", class: 'text-gray text-small repo-name' %>
+    </div>
+    <%= yield  if block_given?%>
+  </div>
+
+</div>

@@ -1,0 +1,25 @@
+.data-feed{
+  max-width: 768px;
+  margin: 0 auto 4rem;
+  padding: 1rem;
+  header {
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
+  .feed-header {
+    padding: 0;
+  }
+  .full-width {
+    width: 100%;
+  }
+  .header-background {
+    background-color: $gray-100;
+  }
+
+  .inner-padding {
+    padding: 2rem;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,10 @@
+.issue-status {
+  background-color: $green-500;
+  padding: .5em;
+  border-radius: .25em;
+  max-height: 2rem;
+  svg {
+    fill: $white;
+    margin-right: .25em;
+  }
+}

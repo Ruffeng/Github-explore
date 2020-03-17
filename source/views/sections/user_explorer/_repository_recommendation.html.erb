@@ -2,14 +2,14 @@
   <div class='repo-info'>
 
     <div class='repo-title'>
-      <%= partial 'views/components/book_vector' %>
+      <%= partial 'views/components/vector_book' %>
       <span>
         <%=link_to repo.team %> / <%=link_to repo.project%>
       </span>
     </div>
 
     <% link_to "#", class: 'repo-stars-link' do %>
-      <%= partial 'views/components/stars_vector' %>
+      <%= partial 'views/components/vector_star' %>
       <%= repo.stars %>
     <% end %>
 

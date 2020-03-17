@@ -1,0 +1,16 @@
+<section class='data-feed'>
+  <% data.data_feed.payload.each do |slot| %>
+
+    <%= case slot.type 
+    when "repository_viewed"
+      partial "views/sections/data_feed/repository/repository", locals: { repo: slot, type: 'viewed'}
+    when "users_popular" 
+      partial "views/sections/data_feed/users/users", locals: { users: slot.users }
+    when "repository_contributed"
+      partial "views/sections/data_feed/repository/repository", locals: { repo: slot , type: 'contributed'}
+    when "ad"
+      partial "views/sections/data_feed/ads/ads", locals: {ad: slot}
+    end
+    %>
+  <% end %>
+</section>

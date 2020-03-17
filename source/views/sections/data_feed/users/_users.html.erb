@@ -1,0 +1,13 @@
+<article class='card feed-header feed-developers'> 
+  <div class='header-background inner-padding full-width flex'>
+    <%= partial "views/sections/data_feed/users/users_header" %>
+  </div>
+
+  <div class='feed-developers-details al-slf-st inner-padding full-width'>
+    <% users.each do |dev| %>
+      <%= partial 'views/sections/data_feed/users/user', locals: {dev: dev} %>
+    <% end %>
+  </div>
+</article>
+
+

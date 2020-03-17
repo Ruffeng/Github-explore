@@ -1,0 +1,98 @@
+{
+  "payload": [
+    {
+      "type": "repository_viewed",
+      "team": "testing-library",
+      "project": "dom-testing-library",
+      "stars": "1.9K",
+      "user": {
+        "avatar": "https://avatars0.githubusercontent.com/u/8957173?s=460&v=4",
+        "nickname": "random_user"
+      },
+      "issue" : {
+        "date": "31 Oct 2018",
+        "status": "Open",
+        "title": "snapshot in a waitFor doesn't seem to work right ",
+        "description": "<p>Hi,</p><p> love this library!</p><p> just wondering if your planning to get the jest-dom/extend-expect functions converted to Native?</p><p> I have a bunch of tests where I introspect text results ...</p><p> I can do a getByText but in some cases I need to get all text for a parent Text component that contains a bunch of child Text components.</p><p> Thanks for your help</p>"
+      }
+    },
+    {
+      "type": "users_popular",
+      "users": [
+        {
+          "name": "Emma Bostian ",
+          "nickname": "emmabostian",
+          "avatar": "https://avatars0.githubusercontent.com/u/7671983?s=460&u=10c5f30603b781947103e842e2c48437359f8df1&v=4",
+          "repo": "react-button",
+          "headline": "React button for the ReactJS Girls"
+        },
+        {
+          "name": "Linus Torvalds",
+          "nickname": "torvalds",
+          "avatar": "https://avatars0.githubusercontent.com/u/1024025?v=4",
+          "repo": "linux",
+          "headline": "Linux kernel source tree"
+        },
+        {
+          "name": "Ruan YiFeng",
+          "nickname": "ruanyf",
+          "avatar": "https://avatars0.githubusercontent.com/u/905434?v=4",
+          "repo": "es6tutorial",
+          "headline": "<< ECMAScript 6 >> tutorial in Javascript"
+        }
+      ]
+    },
+    {
+      "type": "repository_contributed",
+      "team": "callstack",
+      "project": "react-native-testing-library",
+      "stars": "1.1K",
+      "user": {
+        "avatar": "https://avatars0.githubusercontent.com/u/8957173?s=460&v=4",
+        "nickname": "octodev"
+      },
+      "issue" : {
+        "date": "21 Dec 2018",
+        "status": "Open",
+        "title": "jest-dom extend-expect",
+        "description": "Hi, love this library!  just wondering if your planning to get the jest-dom/extend-expect functions converted to Native?"
+      }
+    },
+    {
+      "type": "ad",
+      "picture": "https://marketplace-screenshots.githubusercontent.com/246/8a8b370e-3fbd-11e7-9334-418c937230c1",
+      "logo": "https://avatars1.githubusercontent.com/ml/246?s=400&v=4",
+      "title": " Better Code Hub",
+      "link": "https://github.com/marketplace/better-code-hub",
+      "headline": "Spend less time fixing bugs. And more time shipping new features.",
+      "description": "A clean codebase keeps development velocity high & makes contributing easy. Better Code Hub indicates just the right amount of refactoring needed to keep it compliant.Better Code Hub checks your code for compliance against 10 benchmarked software engineering guidelines. It gives immediate feedback on where to focus for quality improvements. 17 modern programming languages are supported. Up to 700,000 lines of code"
+    },
+    {
+      "type": "users_popular",
+      "users": [
+        {
+          "name": "Sarah Drasner",
+          "nickname": "sdras",
+          "avatar": "https://avatars0.githubusercontent.com/u/2281088?s=460&u=84b646c98eb14480c53987c23901b0001652d9d7&v=4",
+          "repo": "night-owl-vscode-theme",
+          "headline": "🌌NIGHT OWL: A VS Code dark theme"
+        },
+        {
+          "name": "Dan Abramov",
+          "nickname": "gaearon",
+          "avatar": "https://avatars0.githubusercontent.com/u/810438?v=4",
+          "repo": "react-hot-loader",
+          "headline": "Take React components in real time"
+        },
+        {
+          "name": "TJ Holowaychuk",
+          "nickname": "tj",
+          "avatar": "https://avatars2.githubusercontent.com/u/25254?v=4",
+          "repo": "commander.js",
+          "headline": "node.js command-line interfaces made easy"
+        }
+
+      ]
+    }
+  ]
+}
