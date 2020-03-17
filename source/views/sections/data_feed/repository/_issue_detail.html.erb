@@ -1,0 +1,12 @@
+<section class='flex fl-al-c data-feed-issue'>
+  <%= image_tag user.avatar, width: 32%>
+  <div class='text-small bubble flex pl-5'> 
+    <p>
+    <span class="bold"><%= user.nickname%> </span>
+    <span class='text-gray'>commented on <%= issue.date %></span>
+    </p>
+  </div>
+</section>
+<section class='data-feed-issue-detail justified'>
+  <%=issue.description%>
+</section>

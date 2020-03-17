@@ -1,7 +1,11 @@
-  <article class='card feed-repository'> 
-    <div class='header-feed-repository'>
-      <%= partial 'views/sections/data_feed/repository/repository_head', locals: { repo: repo } %>
-      <%= partial 'views/sections/data_feed/repository/navigation'%>
-    </div>
-    <h1> hi </h1>
-  </article>
+<article class='card feed-repository'> 
+  <div class='header-feed-repository inner-padding'>
+    <%= partial 'views/sections/data_feed/repository/repository_head', locals: { repo: repo } %>
+    <%= partial 'views/sections/data_feed/repository/navigation'%>
+  </div>
+  
+  <div class='feed-repository-issue al-slf-st inner-padding'>
+    <%= partial 'views/sections/data_feed/repository/issue_info', locals: { issue: repo.issue } %>
+    <%= partial 'views/sections/data_feed/repository/issue_detail', locals: { issue: repo.issue, user: repo.user } %>
+  </div>
+</article>

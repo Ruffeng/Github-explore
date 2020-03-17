@@ -1,0 +1,40 @@
+.bubble {
+  background: $gray-100;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  position: relative;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  width: 100%;
+  margin-left: 1rem;
+
+  &:before, &:after {
+    position: absolute;
+    top: 11px;
+    right: 100%;
+    left: -16px;
+    display: block;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    content: " ";
+    border-color: transparent;
+    border-style: solid solid outset;
+  }
+  &:after {
+    margin-top: -1px;
+    margin-left: 2px;
+    border-width: 7px;
+    border-right-color: $gray-100;
+  }
+}
+.data-feed-issue-detail {
+  padding: 0 2em 1em;
+  margin: 0 0 3em 3em;
+  background-color: $gray-100;
+}
+.data-feed-issue {
+  img {
+    border-radius: 50%;
+  }
+}

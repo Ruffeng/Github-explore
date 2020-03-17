@@ -13,7 +13,7 @@
         "date": "31 Oct 2018",
         "status": "Open",
         "title": "snapshot in a waitFor doesn't seem to work right in 7.x",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat tincidunt tempor. Maecenas accumsan lectus ut velit egestas vehicula. Maecenas urna ipsum, sodales ut lacus ut, dictum lobortis augue. Nam ultricies ligula sagittis nisl feugiat consectetur eget eget neque. Fusce odio magna, aliquam non sem non, posuere fermentum risus. Proin vitae arcu quis erat sodales iaculis nec vitae odio. Nam vitae congue nisl, maximus pharetra mi. Mauris eu ex elementum, vehicula velit ac, rhoncus massa. Pellentesque a sem sit amet risus gravida fermentum vitae vel libero. Morbi ut odio libero. Duis aliquet augue at orci mattis, a finibus nunc accumsan. Sed ut elit laoreet, placerat nisi at, rutrum orci. Pellentesque venenatis enim libero, in interdum nulla cursus accumsan. Donec sit amet felis euismod, imperdiet ex sed, pulvinar tellus. Morbi tempor sem sit amet lectus dignissim scelerisque. Integer fringilla ultricies massa, at fringilla est tristique ac."
+        "description": "<p>Hi,</p><p> love this library!</p><p> just wondering if your planning to get the jest-dom/extend-expect functions converted to Native?</p><p> I have a bunch of tests where I introspect text results ...</p><p> I can do a getByText but in some cases I need to get all text for a parent Text component that contains a bunch of child Text components.</p><p> Thanks for your help</p>"
       }
     },
     {

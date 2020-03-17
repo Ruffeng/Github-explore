@@ -5,9 +5,11 @@
     width: 100%;
   }
 
-  .header-feed-repository {
+  .inner-padding {
     padding: 2rem;
     padding-bottom: 0;
+  }
+  .header-feed-repository {
     background-color: $gray-100;
   }
   .octicon-telescope {
@@ -15,5 +17,6 @@
   }
   .data-feed-stars {
     background-color: $white;
+    border-left-width: 0;
   }
 }
