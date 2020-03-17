@@ -12,7 +12,6 @@ end
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page '/', layout: 'views/layouts/layout'
 
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
