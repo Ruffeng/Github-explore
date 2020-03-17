@@ -44,3 +44,11 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+# Middleman-deploy configuration
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.remote = 'git@github.com-personal_account:Ruffeng/Github-explore.git'
+  deploy.branch = 'gh-pages'
+  deploy.build_before = true
+end
