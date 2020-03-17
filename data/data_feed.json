@@ -1,0 +1,80 @@
+{
+  "payload": [
+    {
+      "type": "repository_viewed",
+      "team": "testing-library",
+      "project": "dom-testing-library",
+      "stars": "1.9K",
+      "user": {
+        "avatar": "https://avatars0.githubusercontent.com/u/8957173?s=460&v=4",
+        "nickname": "random_user"
+      },
+      "issue" : {
+        "date": "31 Oct 2018",
+        "status": "Open",
+        "title": "snapshot in a waitFor doesn't seem to work right in 7.x",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur feugiat tincidunt tempor. Maecenas accumsan lectus ut velit egestas vehicula. Maecenas urna ipsum, sodales ut lacus ut, dictum lobortis augue. Nam ultricies ligula sagittis nisl feugiat consectetur eget eget neque. Fusce odio magna, aliquam non sem non, posuere fermentum risus. Proin vitae arcu quis erat sodales iaculis nec vitae odio. Nam vitae congue nisl, maximus pharetra mi. Mauris eu ex elementum, vehicula velit ac, rhoncus massa. Pellentesque a sem sit amet risus gravida fermentum vitae vel libero. Morbi ut odio libero. Duis aliquet augue at orci mattis, a finibus nunc accumsan. Sed ut elit laoreet, placerat nisi at, rutrum orci. Pellentesque venenatis enim libero, in interdum nulla cursus accumsan. Donec sit amet felis euismod, imperdiet ex sed, pulvinar tellus. Morbi tempor sem sit amet lectus dignissim scelerisque. Integer fringilla ultricies massa, at fringilla est tristique ac."
+      }
+    },
+    {
+      "type": "users_popular",
+      "users": [
+        {
+          "name": "Linus Torvalds",
+          "avatar": "https://avatars0.githubusercontent.com/u/1024025?v=4",
+          "repo_name": "linux",
+          "repo_headline": "Linux kernel source tree"
+        },
+        {
+          "name": "Ruan YiFeng",
+          "avatar": "https://avatars0.githubusercontent.com/u/905434?v=4",
+          "repo_name": "es6tutorial",
+          "repo_headline": "<< ECMAScript 6 >> tutorial in Javascript"
+        }
+      ]
+    },
+    {
+      "type": "repository_contributed",
+      "team": "callstack",
+      "project": "react-native-testing-library",
+      "stars": "1.1K",
+      "user": {
+        "avatar": "https://avatars0.githubusercontent.com/u/8957173?s=460&v=4",
+        "nickname": "octodev"
+      },
+      "issue" : {
+        "date": "21 Dec 2018",
+        "status": "Open",
+        "title": "jest-dom extend-expect",
+        "description": "Hi, love this library!  just wondering if your planning to get the jest-dom/extend-expect functions converted to Native?"
+      }
+    },
+    {
+      "type": "ad",
+      "picture": "https://marketplace-screenshots.githubusercontent.com/246/8a8b370e-3fbd-11e7-9334-418c937230c1",
+      "logo": "https://avatars1.githubusercontent.com/ml/246?s=400&v=4",
+      "title": " Better Code Hub",
+      "link": "https://github.com/marketplace/better-code-hub",
+      "headline": "Spend less time fixing bugs. And more time shipping new features.",
+      "description": "A clean codebase keeps development velocity high & makes contributing easy. Better Code Hub indicates just the right amount of refactoring needed to keep it compliant.Better Code Hub checks your code for compliance against 10 benchmarked software engineering guidelines. It gives immediate feedback on where to focus for quality improvements. 17 modern programming languages are supported. Up to 700,000 lines of code"
+    },
+    {
+      "type": "users_popular",
+      "users": [
+        {
+          "name": "Dan Abramov",
+          "avatar": "https://avatars0.githubusercontent.com/u/810438?v=4",
+          "repo_name": "react-hot-loader",
+          "repo_headline": "Teak React components in real time"
+        },
+        {
+          "name": "TJ Holowaychuk",
+          "avatar": "https://avatars2.githubusercontent.com/u/25254?v=4",
+          "repo_name": "commander.js",
+          "repo_headline": "node.js command-line interfaces made easy"
+        }
+
+      ]
+    }
+  ]
+}
