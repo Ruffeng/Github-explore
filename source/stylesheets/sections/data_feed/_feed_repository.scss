@@ -1,10 +1,19 @@
 .feed-repository {
-  padding: 1em;
-  display: flex;
+  padding: 0;
+  
+  .header-info, .header-feed-repository{
+    width: 100%;
+  }
+
+  .header-feed-repository {
+    padding: 2rem;
+    padding-bottom: 0;
+    background-color: $gray-100;
+  }
   .octicon-telescope {
     width: .75em;
   }
-  .header-info {
-    width: 100%;
+  .data-feed-stars {
+    background-color: $white;
   }
 }

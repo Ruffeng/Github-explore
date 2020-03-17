@@ -1,19 +1,19 @@
   <header class='flex fl-d-co fl-al-st'>
     <div class='flex fl-al-c'>
-      <span><%= partial "views/components/telescope_vector" %></span>
+      <span><%= partial "views/components/vector_telescope" %></span>
       <span class='pl-2 text-small'>Based on repositories you’ve viewed</span>
     </div> 
     <div class='flex fl-jc-sb header-info'>
       <div class='flex fl-al-c'>
-        <%= partial 'views/components/book_vector' %>
+        <%= partial 'views/components/vector_book' %>
         <%= link_to repo.team, "http://www.github.com/#{repo.team}", class: 'pl-2' %> / <%= link_to repo.project, "http://www.github.com/#{repo.team}/#{repo.project}" %>
       </div>
       <div class='flex'>
         <button class='flex fl-al-c btn'>
-          <%= partial 'views/components/star_vector'%> 
+          <%= partial 'views/components/vector_star'%> 
           <span class='pl-1'>Star</span>
         </button>
-        <span class='full-border p-1 text-small'><%=repo.stars%></span>
+        <span class='full-border p-1 text-small data-feed-stars'><%=repo.stars%></span>
       </div>
     </div>
   </header>
