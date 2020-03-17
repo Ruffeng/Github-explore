@@ -1,0 +1,23 @@
+<article class='card feed-header feed-ads'> 
+  <%= image_tag ad.picture, class: 'feed-ads-image' %>
+  <div class='flex feed-ads-details al-slf-st inner-padding full-width'>
+
+    <div class='sponsored flex fl-al-c'>
+      <%= partial 'views/components/vector_octocat' %>
+      <span class='text-small text-gray pl-2'>App recommended by GitHub</span>
+    </div> 
+
+  </div>
+  <div class='flex feed-ads-headline full-width'>
+    <%= image_tag ad.logo, width: 100 %>
+    <section>
+      <h2><%=link_to ad.title, ad.link %></h2>
+      <%= ad.headline %>
+    </section>
+  </div>
+  <div class='feed-ads-description'>
+    <p class='text-gray text-small justified'><%= ad.description %></p>
+  </div>
+</article>
+
+
