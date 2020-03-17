@@ -3,8 +3,12 @@
 
     <%= case slot.type 
     when "repository_viewed"
-      partial "views/sections/data_feed/repository/repository", locals: { repo: slot }
-  
+      partial "views/sections/data_feed/repository/repository", locals: { repo: slot, type: 'viewed'}
+    when "users_popular" 
+      partial "views/sections/data_feed/users/users", locals: { users: slot.users }
+
+    when "repository_contributed"
+      partial "views/sections/data_feed/repository/repository", locals: { repo: slot , type: 'contributed'}
     end
     %>
   <% end %>

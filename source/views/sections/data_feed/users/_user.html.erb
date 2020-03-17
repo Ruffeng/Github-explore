@@ -1,0 +1,8 @@
+<section class='flex fl-al-c fl-jc-sb feed-single-developer'>
+  <div>
+    <% partial 'views/components/user_info', locals: { dev: dev } do %>
+      <span class='text-gray text-small pt-2'><%= dev.headline %></span>
+    <% end %>
+  </div>
+  <button class='btn btn-radius'>Follow</button>
+</section>

@@ -1,20 +1,6 @@
 <% partial 'views/components/card', locals: { custom_class: 'developers' } do %>
   <%= partial 'views/sections/user_explorer/header-card', locals: { link: 'https://github.com/trending/developers', text: 'developers' } %>
   <% data.trending_developers.payload.each do |dev| %>
-    <div class='trending-developer'>
-      <picture>
-        <%= image_tag dev.avatar, width: 50 %>
-      </picture>
-      <div class='developer-info'>
-        <%= link_to dev.name, "http://github.com/#{dev.nickname}" %>
-        <span class='text-gray text-small'><%= dev.nickname %></span>
-        <div class='pt-2 trending-dev-main-repo'>
-          <%= partial 'views/components/vector_book' %>
-          <%= link_to dev.repo, "github.com/#{dev.nickname}/#{dev.repo}", class: 'text-gray text-small repo-name' %>
-        </div>
-      </div>
-
-    </div>
-
+    <%= partial 'views/components/user_info', locals: { dev: dev } %>
   <% end %>
 <% end %>

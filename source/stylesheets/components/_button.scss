@@ -1,0 +1,12 @@
+button.btn  {
+  color: $gray-900;
+  background-color: $gray-100;
+  background-image: linear-gradient(-180deg, $gray-000 0%, $gray-100 90%);
+  padding: 3px 10px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+button.btn-radius {
+  border-radius: .25rem;
+}

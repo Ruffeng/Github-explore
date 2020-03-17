@@ -1,9 +1,11 @@
+<% text = type == "viewed" ? "Based on repositories you've viewed" : "Based on your public repository contribution" %>
+
   <header class='flex fl-d-co fl-al-st'>
     <div class='flex fl-al-c'>
       <span><%= partial "views/components/vector_telescope" %></span>
-      <span class='pl-2 text-small'>Based on repositories you’ve viewed</span>
+      <span class='pl-2 text-small'><%= text %></span>
     </div> 
-    <div class='flex fl-jc-sb header-info'>
+    <div class='flex fl-jc-sb full-width'>
       <div class='flex fl-al-c'>
         <%= partial 'views/components/vector_book' %>
         <%= link_to repo.team, "http://www.github.com/#{repo.team}", class: 'pl-2' %> / <%= link_to repo.project, "http://www.github.com/#{repo.team}/#{repo.project}" %>
