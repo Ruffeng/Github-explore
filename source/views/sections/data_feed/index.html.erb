@@ -1,0 +1,11 @@
+<section class='data-feed'>
+  <% data.data_feed.payload.each do |slot| %>
+
+    <%= case slot.type 
+    when "repository_viewed"
+      partial "views/sections/data_feed/repository", locals: { repo: slot }
+  
+    end
+    %>
+  <% end %>
+</section>

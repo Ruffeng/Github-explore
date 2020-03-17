@@ -1,0 +1,15 @@
+.data-feed{
+  max-width: $max-width;
+  margin: 0 auto;
+  header {
+    width: 100%;
+  }
+  button.btn  {
+    color: $gray-900;
+    background-color: $gray-100;
+    background-image: linear-gradient(-180deg, $gray-000 0%, $gray-100 90%);
+    padding: 3px 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

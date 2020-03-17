@@ -1,3 +1,7 @@
 .border {
   box-shadow: 0 1px 0 0 $border-gray;
 }
+.full-border {
+  box-shadow: 0 1px $border-gray, 1px 0 $border-gray, 0px -1px $border-gray, -1px 0 $border-gray;
+  margin: 1px 0;
+}
