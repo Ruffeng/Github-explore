@@ -16,5 +16,9 @@ button.btn  {
 }
 
 button.btn-radius {
-  border-radius: .25rem;
+  border-radius: 3px;
+}
+
+button.btn-left-radius {
+  border-radius: 3px 0 0 3px;
 }
